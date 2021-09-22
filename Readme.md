@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Елизавета Дубровина](https://up.htmlacademy.ru/htmlcss/32/user/1449183).
-* Наставник: `Павел Нюкало`.
+* Наставник: `Павел Нюкало` (https://htmlacademy.ru/profile/nyukalopavel).
 
 ---
 
