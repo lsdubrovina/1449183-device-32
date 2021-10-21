@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Каталог товаров интернет-магазина «Device»</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <header class="main-header">
@@ -26,7 +27,7 @@
             <a class="navigation-link" href="#" >Коля Петухов</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#" >Выйти</a>
+            <a class="navigation-link navigation-link-log-off" href="#" >Выйти</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#" >Сравнить</a>
@@ -35,7 +36,7 @@
             <a class="navigation-link" href="#" >Корзина</a>
           </li>
         </ul>
-        <ul class="navigation-list">
+        <ul class="navigation-list navigation-services">
           <li class="navigation-item">
             <a class="navigation-link" href="catalog.html" >Каталог товаров</a>
             <button class="submenu" type="button"><span class="visually-hidden">Открыть подменю</span></button>
@@ -70,10 +71,10 @@
       </header>
 
       <section class="catalog-products">
-        <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+        <h2 class="catalog-filter-title">Фильтр:</h2>
         <form class="catalog-filter" action="#" method="POST">
           <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Стоимость</legend>
+            <legend class="catalog-filter-subtitle">Стоимость</legend>
             <button class="range-toggle toggle-min" type="button">
               <span class="visually-hidden">Изменить минимальную стоимость.</span>
             </button>
@@ -88,7 +89,7 @@
             </label>
           </fieldset>
           <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Цвет</legend>
+            <legend class="catalog-filter-subtitle">Цвет</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
@@ -128,7 +129,7 @@
             </ul>
           </fieldset>
           <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Bluetooth</legend>
+            <legend class="catalog-filter-subtitle">Bluetooth</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
@@ -146,7 +147,7 @@
               </li>
             </ul>
           </fieldset>
-          <button class="button" type="submit">Подробнее</button>
+          <button class="button" type="submit">Показать</button>
         </form>
 
         <form class="sorting-type">
@@ -206,19 +207,19 @@
             <a class="pagination-link pagination-prev pagination-disabled">Назад</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link pagination-current">1</a>
+            <a class="pagination-link pagination-link-number pagination-current">1</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">2</a>
+            <a class="pagination-link pagination-link-number" href="#">2</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">3</a>
+            <a class="pagination-link pagination-link-number" href="#">3</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">...</a>
+            <a class="pagination-link pagination-link-number" href="#">...</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">15</a>
+            <a class="pagination-link pagination-link-number" href="#">15</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link pagination-next" href="#"> Вперёд</a>

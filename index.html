@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Интернет-магазин «Device»</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <header class="main-header">
@@ -33,7 +34,7 @@
             <a class="navigation-link" href="#" >Корзина</a>
           </li>
         </ul>
-        <ul class="navigation-list">
+        <ul class="navigation-list navigation-services">
           <li class="navigation-item">
             <a class="navigation-link" href="catalog.html" >Каталог товаров</a>
             <button class="submenu" type="button"><span class="visually-hidden">Открыть подменю</span></button>
@@ -64,17 +65,18 @@
         <div class="slider-inner">
           <h3 class="visually-hidden">Квадрокоптер</h3>
           <img class="slider-image" src="img/slider_1.jpg" width="560" height="560" alt="Квадрокоптер.">
+          <span class="slider-number">01</span>
           <h4 class="slider-subtitle">Порхает как бабочка, жалит как пчела!</h4>
           <p class="slider-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
           <a class="slider-link" href="#">Подробнее</a>
           <table class="slider-table">
             <tr class="slider-table-row">
               <td class="slider-table-data">Дальность полета</td>
-              <td class="slider-table-data"><b>800 М</b></td>
+              <td class="slider-table-data"><b class="slider-table-data-big">800 М</b></td>
             </tr>
             <tr class="slider-table-row">
               <td class="slider-table-data">Радиус поражения</td>
-              <td class="slider-table-data"><b>50 М</b></td>
+              <td class="slider-table-data"><b class="slider-table-data-big">50 М</b></td>
             </tr>
           </table>
         </div>
@@ -82,13 +84,14 @@
         <div class="slider-inner">
           <h3 class="visually-hidden">Фитнес-браслет</h3>
           <img class="slider-image" src="img/slider_2.jpg" width="560" height="560" alt="Фитнес-браслет.">
+          <span class="slider-number">02</span>
           <h4 class="slider-subtitle">Худеем правильно!</h4>
           <p class="slider-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
           <a class="slider-link" href="#" >Подробнее</a>
           <table class="slider-table">
             <tr class="slider-table-row">
               <td class="slider-table-data">Без подзарядки</td>
-              <td class="slider-table-data"><b>48 часов</b></td>
+              <td class="slider-table-data"><b class="slider-table-data-big">48 часов</b></td>
             </tr>
           </table>
         </div>
@@ -96,21 +99,22 @@
         <div class="slider-inner">
           <h3 class="visually-hidden">Селфипалка</h3>
           <img class="slider-image" src="img/slider_3.jpg" width="560" height="560" alt="Селфипалка.">
+          <span class="slider-number">03</span>
           <h4 class="slider-subtitle">Делай селфи, как Бен Стиллер!</h4>
           <p class="slider-description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.</p>
           <a class="slider-link" href="#" >Подробнее</a>
           <table class="slider-table">
             <tr class="slider-table-row">
               <td class="slider-table-data">Длина палки</td>
-              <td class="slider-table-data"><b>8,5 м</b></td>
+              <td class="slider-table-data"><b class="slider-table-data-big">8,5 м</b></td>
             </tr>
             <tr class="slider-table-row">
               <td class="slider-table-data">Вес палки</td>
-              <td class="slider-table-data"><b>5 к</b></td>
+              <td class="slider-table-data"><b class=" slider-table-data-big">5 к</b></td>
             </tr>
             <tr class="slider-table-row">
               <td class="slider-table-data">Материал</td>
-              <td class="slider-table-data"><b>Карбон</b></td>
+              <td class="slider-table-data"><b class="slider-table-data-big">Карбон</b></td>
             </tr>
           </table>
         </div>
@@ -223,6 +227,7 @@
         </ul>
         <a class="feedback-link" href="#">Напишите нам</a>
       </section>
+
       <section class="mailing">
         <h2 class="mailing-title">Подпишитесь на рассылку</h2>
         <form class="mailing-form" action="#" method="POST">

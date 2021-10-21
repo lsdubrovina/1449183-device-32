@@ -1,0 +1,434 @@
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/rubik/rubik-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+ body {
+   font-family: "Raleway", sans-serif;
+   font-size: 18px;
+   line-height: 30px;
+   color: #000000;
+   border-color: #E5E5E5;
+ }
+
+/* Шапка сайта */
+
+ .main-header {
+   background-color: #FFE17F;
+   color: #000000;
+ }
+
+.site-search-field {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.3;
+}
+
+.navigation-user .navigation-link {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+
+}
+
+.navigation-services .navigation-link {
+  line-height: 21px;
+  font-weight: 800;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+/* Слайдер */
+.slider-number {
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 180px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.slider-subtitle {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 800;
+}
+
+.slider-description{
+  font-family: "Rubik", sans-serif;
+  color: #444444;
+}
+
+.slider-link {
+line-height: 21px;
+font-weight: 800;
+color: #000000;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+}
+
+.slider-table-row {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.slider-table-data-big {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 30px;
+}
+
+/* Категории товаров */
+.product-categories-link {
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Сервисы */
+.services-link {
+  line-height: 21px;
+  color: #FFE17F;;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.services-subtitle {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.servicer-description {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #444444;
+}
+
+/* Доставка */
+.delivery {
+  background: #F0F0F0;
+}
+
+.delivery-button {
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  }
+
+/* О нас */
+.about-us-title {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.about-us-description {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #444444;
+}
+
+.delivery-services-item {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.about-us-link {
+  line-height: 21px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* Контакты */
+.contacts-title {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.contacts-description {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #444444;
+}
+
+.contacts-subtitle {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #444444;
+}
+
+.contacts-address-text,
+.contacts-phone {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #444444;
+}
+
+.contacts-phone  {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+}
+
+.contacts-schedule-item {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #444444;
+}
+
+.feedback-link {
+  line-height: 21px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* Рассылка */
+.mailing {
+  background-color: #F0F0F0;
+}
+
+.mailing-title {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.field {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #444444;
+}
+
+.mailing-button {
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.mailing-description,
+.mailing-description-free {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #444444;
+}
+
+/* Футер */
+.page-footer {
+  background: #444444;
+  color: #FFFFFF;
+}
+
+.footer-contacts-address-text {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.footer-navigation-link {
+  line-height: 21px;
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-contacts-phone {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* Страница каталога */
+.navigation-link-log-off {
+  opacity: 0.3;
+}
+
+.header-inner-title {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.breadcrumbs-link {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.catalog-filter-title{
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background-color:  #DCDCDC;;
+}
+.catalog-filter {
+  background: #E5E5E5;
+}
+.catalog-filter-subtitle {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+
+.catalog-filter-label {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  opacity: 0.3;
+}
+
+.catalog-filter-item {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.button {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.sorting-type {
+  background: #EBEBEB;
+}
+
+.sorting-label {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+}
+
+.select-control option {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.product-card-price {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.product-card-button {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.pagination-load-more{
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.pagination {
+  background: #EBEBEB;
+}
+
+
+.pagination-link-number {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #444444;
+  opacity: 0.3;
+  text-decoration: none;
+}
+
+.pagination-prev,
+.pagination-next {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
