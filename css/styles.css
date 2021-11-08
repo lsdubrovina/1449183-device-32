@@ -34,14 +34,22 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
 
-   color: #000000;
-   background-color: #FFFFFF;
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 /* Шапка сайта */
@@ -51,12 +59,35 @@ body {
   background-color: #FFF17F;
 }
 
+.navigation{
+  width: 864px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation-user{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.navigation-services {
+  display: flex;
+  flex-direction: row;
+
+}
 .site-search-field {
   font-family: inherit;
   font-size: 16px;
   line-height: 19px;
 
   opacity: 0.3;
+}
+
+.navigation-link {
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-user .navigation-link {
@@ -77,6 +108,10 @@ body {
   text-transform: uppercase;
 
   color: #000000;
+}
+
+.main-container{
+  flex-grow: 1;
 }
 
 /* Слайдер */
@@ -119,6 +154,17 @@ body {
 }
 
 /* Категории товаров */
+.product-categories-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.product-categories-item{
+  width: 160px;
+}
+
 .product-categories-link {
   font-family: 'Raleway', sans-serif;
   line-height: 24px;
@@ -130,6 +176,17 @@ body {
 }
 
 /* Сервисы */
+.secvices-wrapper{
+  width: 1016px;
+  display: flex;
+}
+
+.services-list {
+  width: 600px;
+  margin: 0;
+  padding: 0;
+}
+
 .services-link {
   font-family: 'Raleway', sans-serif;
   line-height: 21px;
@@ -154,6 +211,9 @@ body {
 
 /* Доставка */
 .delivery {
+  width: 1160px;
+  display: flex;
+  justify-content: center;
   background: #F0F0F0;
 }
 
@@ -171,6 +231,16 @@ body {
 }
 
 /* О нас */
+.about-us-wrapper{
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.about-us{
+margin-right: 103px;;
+}
+
 .about-us-title {
   font-family: 'Raleway', sans-serif;
   font-size: 50px;
@@ -274,6 +344,13 @@ body {
 }
 
 /* Футер */
+.page-footer-container {
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+
 .page-footer {
   color: #FFFFFF;
   background: #444444;
