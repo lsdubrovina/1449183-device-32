@@ -39,44 +39,58 @@ html {
 }
 
 body {
-  margin: 0;
   display: flex;
   flex-direction: column;
+
+  box-sizing: border-box;
   min-height: 100%;
+  margin: 0;
+
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
 
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 /* Шапка сайта */
 
 .main-header {
   color: #000000;
-  background-color: #FFF17F;
+  background-color: #fff17f;
+}
+.wrapper {
+  width: 1160px;
+  margin: 0 auto;
 }
 
-.navigation{
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+
   width: 864px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
 }
 
-.navigation-user{
+.navigation-user {
   display: flex;
   flex-direction: row;
-
 }
 
 .navigation-services {
   display: flex;
   flex-direction: row;
-
 }
+
+.resert-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
 .site-search-field {
   font-family: inherit;
   font-size: 16px;
@@ -110,17 +124,25 @@ body {
   color: #000000;
 }
 
-.main-container{
+.main-container {
   flex-grow: 1;
 }
 
 /* Слайдер */
+.slider-inner {
+  display: flex;
+}
+
+.slider-content-container {
+  width: 600px;
+}
+
 .slider-number {
   font-size: 180px;
   font-weight: 800;
   line-height: 30px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .slider-subtitle {
@@ -157,11 +179,12 @@ body {
 .product-categories-list {
   display: flex;
   justify-content: space-between;
+
   margin: 0;
   padding: 0;
 }
 
-.product-categories-item{
+.product-categories-item {
   width: 160px;
 }
 
@@ -176,15 +199,9 @@ body {
 }
 
 /* Сервисы */
-.secvices-wrapper{
-  width: 1016px;
-  display: flex;
-}
 
-.services-list {
-  width: 600px;
-  margin: 0;
-  padding: 0;
+.secvices-container {
+  display: flex;
 }
 
 .services-link {
@@ -196,7 +213,7 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
 
-  color: #FFF17F;
+  color: #fff17f;
 }
 
 .services-subtitle {
@@ -206,15 +223,17 @@ body {
 }
 
 .servicer-description {
-    color: #444444;
+  color: #444444;
 }
 
 /* Доставка */
 .delivery {
-  width: 1160px;
   display: flex;
   justify-content: center;
-  background: #F0F0F0;
+
+  width: 1160px;
+
+  background: #f0f0f0;
 }
 
 .delivery-button {
@@ -231,14 +250,12 @@ body {
 }
 
 /* О нас */
-.about-us-wrapper{
-  width: 1000px;
+.about-us-container {
   display: flex;
-  margin: 0 auto;
 }
 
-.about-us{
-margin-right: 103px;;
+.about-us {
+  margin-right: 103px;;
 }
 
 .about-us-title {
@@ -315,9 +332,16 @@ margin-right: 103px;;
 
 /* Рассылка */
 .mailing {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
+.mailing-content {
+  display: flex;
+}
+
+.mailing-form-container {
+  display: flex;
+}
 .mailing-title {
   font-family: 'Raleway', sans-serif;
   font-size: 50px;
@@ -346,16 +370,16 @@ margin-right: 103px;;
 /* Футер */
 .page-footer-container {
   display: flex;
-  width: 1440px;
-  margin: 0 auto;
 }
 
 
 .page-footer {
-  color: #FFFFFF;
+  color: #ffffff;
   background: #444444;
 }
-
+.page-footer-info {
+  display: flex;
+}
 .footer-contacts-address-text {
   font-size: 16px;
   font-style: normal;
@@ -371,7 +395,7 @@ margin-right: 103px;;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-contacts-phone {
@@ -381,7 +405,10 @@ margin-right: 103px;;
 
   text-decoration: none;
 
-  color: #FFFFFF;
+  color: #ffffff;
+}
+.page-footer-social-wrapper {
+  display: flex;
 }
 
 /* Страница каталога */
@@ -413,11 +440,11 @@ margin-right: 103px;;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
 }
 
 .catalog-filter {
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 
 .catalog-filter-subtitle {
@@ -451,7 +478,7 @@ margin-right: 103px;;
 }
 
 .sorting-type {
-  background: #EBEBEB;
+  background: #ebebeb;
 }
 
 .sorting-label {
@@ -502,7 +529,7 @@ margin-right: 103px;;
 }
 
 .pagination {
-  background: #EBEBEB;
+  background: #ebebeb;
 }
 
 .pagination-link-number {
@@ -524,4 +551,20 @@ margin-right: 103px;;
   text-transform: uppercase;
 
   color: #000000;
+}
+
+.footer-sourсe-button path {
+  transition: 0.7s all linear;
+}
+
+.footer-sourсe-button:focus {
+  outline: 2px solid #af4fff;
+}
+
+.footer-sourсe-button:hover path {
+  fill: #ffffff;
+}
+
+.footer-sourсe-button:active path {
+  fill: rgba(255, 255, 255, 0.3);
 }
